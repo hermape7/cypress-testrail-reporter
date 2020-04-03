@@ -1,0 +1,45 @@
+{
+  "name": "cypress-testrail-reporter",
+  "version": "0.0.1",
+  "description": "A Testrail reporter for cypress including TestRail API basic library",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "cypress",
+    "testrail",
+    "reporter"
+  ],
+  "author": {
+    "name": "Petr Heřmanský",
+    "email": "hermanskyp@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hermape7/cypress-testrail-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hermape7/cypress-testrail-reporter/issues"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run tsc"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "btoa": "^1.1.2",
+    "chalk": "^4.0.0",
+    "mocha": "^7.1.1",
+    "moment": "^2.22.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.11.0",
+    "chai": "^4.2.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}
