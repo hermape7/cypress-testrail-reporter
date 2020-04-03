@@ -1,5 +1,5 @@
 {
-  "name": "cypress-testrail-reporter",
+  "name": "@hermape7/cypress-testrail-reporter",
   "version": "0.0.1",
   "description": "A Testrail reporter for cypress including TestRail API basic library",
   "main": "index.js",
