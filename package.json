@@ -32,7 +32,7 @@
     "btoa": "^1.1.2",
     "chalk": "^4.0.0",
     "mocha": "^7.1.1",
-    "moment": "^2.22.1"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
